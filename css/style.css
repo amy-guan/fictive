@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  height: 100%;
+  background-color: #f2eac9;
+  font-family:Garamond;
+  background-image: url(https://i.imgur.com/xOuPB0P.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:40vw;
+  background-position:top center;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blurb{
+    margin-top:62vh;
+    margin-left:16vw;
+    width:65vw;
+    background-color:transparent;
+    color:#722828;
+    border:dashed;
+    border-width:8px;
+    border-bottom:0;
+    border-top:0;
+    padding:10px;
+}
+
+.blurb hello{
+    font-family:'Open Sans';
+    font-weight:200;
+    font-size:7vh;
+}
+
+.blurb intro{
+    font-family:'Eb Garamond';
+    font-size:2.8vh;
+    line-height:95%
+}
+
+.button {
+    background-color: #722828;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:8px;
+    transition: background-color 0.60s ease;
+    color: #f2eac9;
+    font-family:'Open Sans';
+    font-weight:200;
+}
+
+.button:hover{
+    background-color: #b53f3f;
+    transition: background-color 0.60s ease;
+}
+
+
+#buttonupload{
+    background-color: #473645;
+    font-family:roboto slab;
+  border: none;
+  width: 10vw;
+  padding: 15px 25px;
+  padding-bottom:15px;
+  text-align: center;
+  margin-top: 5vh;
+  margin-left: 120vh;
+  box-shadow: 1px 1px 3px gray;
+  border-radius:8px;
+  display:block;
+}
+
+#buttonupload a{
+    color: #e8c9e4;
+    font-weight:bold;
+    font-size:20px;
+    display:block;
+
+}
+
+#footer{
+  background-color: #586473;
+  bottom: 0px;
+  position: fixed;
+  width:100%;
+  font-size: 14px;
+  padding-top: 0.2vh;
+  padding-bottom: 1.5vh;
+}
+
+#footer pdali{
+  color:#FFF;
+  padding-left:1vw;
+}
+
+#footer psponsor{
+  padding-right:1vw;
+}
+
+.otherfooter{
+  margin-right:0px;
+}
